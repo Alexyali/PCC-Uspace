@@ -1,0 +1,2 @@
+export LD\_LIBRARY\_PATH=$LD\_LIBRARY\_PATH:`pwd`/core/ &&
+./app/pccclient send 127.0.0.1 9000 --pcc-rate-control=python -pyhelper=shim -pypath=/home/alex/PCC-RL/src/udt-plugins/training/ --history-len=10 --pcc-utility-calc=linear
